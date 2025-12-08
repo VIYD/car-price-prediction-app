@@ -1,0 +1,28 @@
+services:
+  backend:
+    build: ./backend
+    container_name: car_price_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - /app/__pycache__
+    networks:
+      - car-net
+
+  frontend:
+    build: ./frontend
+    container_name: car_price_frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+    networks:
+      - car-net
+
+networks:
+  car-net:
+    driver: bridge

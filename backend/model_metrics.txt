@@ -1,0 +1,20 @@
+
+================ Car Price Model Report ================
+Model: Random Forest
+Samples: Train=3147, Test=787
+
+--- Accuracy ---
+MAE:  $10,613.81
+RMSE: $16,649.88
+R²:   0.6611
+
+--- Error Distribution ---
+25% Error: $3,069.51
+50% Error: $6,556.48
+75% Error: $13,398.64
+
+--- Price Stats ---
+Avg Price: $37,477.76
+Min Price: $2,800.00
+Max Price: $188,500.00
+========================================================

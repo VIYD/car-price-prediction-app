@@ -1,0 +1,7 @@
+kagglehub
+pandas
+fastapi
+uvicorn
+scikit-learn
+python-multipart
+joblib
