@@ -1,0 +1,74 @@
+column,category,count,percent
+brand,Ford,385,9.79
+brand,BMW,375,9.53
+brand,Mercedes-Benz,307,7.8
+brand,Chevrolet,292,7.42
+brand,Audi,200,5.08
+brand,Toyota,199,5.06
+brand,Porsche,188,4.78
+brand,Lexus,163,4.14
+brand,Jeep,143,3.63
+brand,Land,130,3.3
+model,M3 Base,30,0.76
+model,F-150 XLT,24,0.61
+model,Corvette Base,22,0.56
+model,1500 Laramie,18,0.46
+model,Wrangler Sport,17,0.43
+model,Model Y Long Range,17,0.43
+model,Camaro 2SS,17,0.43
+model,Mustang GT Premium,16,0.41
+model,911 Carrera,16,0.41
+model,M4 Base,15,0.38
+fuel_type,Gasoline,3235,82.23
+fuel_type,Hybrid,194,4.93
+fuel_type,nan,170,4.32
+fuel_type,E85 Flex Fuel,139,3.53
+fuel_type,Diesel,116,2.95
+fuel_type,–,44,1.12
+fuel_type,Plug-In Hybrid,34,0.86
+fuel_type,not supported,2,0.05
+engine,2.0L I4 16V GDI DOHC Turbo,50,1.27
+engine,355.0HP 5.3L 8 Cylinder Engine Gasoline Fuel,48,1.22
+engine,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,47,1.19
+engine,–,44,1.12
+engine,300.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,44,1.12
+engine,240.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,42,1.07
+engine,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,40,1.02
+engine,5.7L V8 16V MPFI OHV,29,0.74
+engine,3.6L V6 24V GDI DOHC,28,0.71
+engine,3.6L V6 24V MPFI DOHC,28,0.71
+transmission,A/T,1032,26.23
+transmission,8-Speed A/T,401,10.19
+transmission,Transmission w/Dual Shift Mode,390,9.91
+transmission,6-Speed A/T,362,9.2
+transmission,6-Speed M/T,246,6.25
+transmission,Automatic,228,5.8
+transmission,7-Speed A/T,206,5.24
+transmission,8-Speed Automatic,166,4.22
+transmission,10-Speed A/T,119,3.02
+transmission,5-Speed A/T,86,2.19
+ext_col,Black,893,22.7
+ext_col,White,806,20.49
+ext_col,Gray,490,12.46
+ext_col,Silver,372,9.46
+ext_col,Blue,347,8.82
+ext_col,Red,255,6.48
+ext_col,Green,74,1.88
+ext_col,Brown,42,1.07
+ext_col,Gold,42,1.07
+ext_col,Beige,38,0.97
+int_col,Black,1997,50.76
+int_col,Beige,536,13.62
+int_col,Gray,470,11.95
+int_col,Brown,155,3.94
+int_col,–,125,3.18
+int_col,White,124,3.15
+int_col,Red,122,3.1
+int_col,Jet Black,59,1.5
+int_col,Ebony,44,1.12
+int_col,Blue,28,0.71
+accident,None reported,2840,72.19
+accident,At least 1 accident or damage reported,984,25.01
+accident,Unknown,110,2.8
+clean_title,Yes,3365,85.54
+clean_title,nan,569,14.46

@@ -1,0 +1,7 @@
+================ Dataset Analysis Summary ================
+Raw shape: (4009, 12)
+Clean shape: (3934, 13)
+Rows removed during cleaning: 75
+Numeric columns (4): model_year, milage, price, car_age
+Categorical columns (9): brand, model, fuel_type, engine, transmission, ext_col, int_col, accident, clean_title
+==========================================================

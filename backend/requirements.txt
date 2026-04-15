@@ -1,7 +1,10 @@
 kagglehub
 pandas
+numpy
 fastapi
 uvicorn
 scikit-learn
 python-multipart
 joblib
+matplotlib
+seaborn

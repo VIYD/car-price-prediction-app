@@ -1,14 +1,12 @@
-FROM node:20-alpine
+FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY package.json .
-RUN npm install
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# Expose Vite port
-EXPOSE 5173
+EXPOSE 8501
 
-# Host 0.0.0.0 needed for Docker
-CMD ["npm", "run", "dev", "--", "--host"]
+CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8501"]
